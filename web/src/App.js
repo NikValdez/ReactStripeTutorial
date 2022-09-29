@@ -12,7 +12,7 @@ function App() {
 				<StripeContainer />
 			) : (
 				<>
-					<h3>$10.00</h3>
+					<h3>$0.01</h3>
 					<img src={spatula} alt='Spatula' />
 					<button onClick={() => setShowItem(true)}>Purchase Spatula</button>
 				</>
